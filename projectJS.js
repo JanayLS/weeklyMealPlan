@@ -54,6 +54,8 @@ function myWindow()
         </table>`)
 
         myText += (`<br><br><h2 style="color: hotpink;">Enjoy your week!</h2>`)
+        myText += (`<button style="color: hotpink; font-family:Verdana, Geneva, Tahoma, sans-serif;" onclick="window.print()">Print</button>
+`)
         myText += ("</body>\n</html>")
         // opens pop-up window and displays the HTML written above.
         flyWindow = window.open('about:blank','myPop','width=800,height=800,left=200,top=200');
